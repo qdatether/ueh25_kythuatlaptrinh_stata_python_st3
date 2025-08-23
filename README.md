@@ -17,7 +17,7 @@
 - Class: IVP001  
 - Instructor: Dr. Đỗ Như Tài  
 - Student: Nguyễn Phạm Quốc Đạt
-- ID: 31231026641
+- Student's ID: 31231026641
 - Topic: Personal practice
 - Date: Last semester 2025
 
