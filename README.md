@@ -18,7 +18,7 @@
 - Instructor: Dr. Đỗ Như Tài  
 - Student: Nguyễn Phạm Quốc Đạt
 - ID: 31231026641
-- Topic: Personal practice and information
+- Topic: Personal practice
 - Date: Last semester 2025
 
 ---
