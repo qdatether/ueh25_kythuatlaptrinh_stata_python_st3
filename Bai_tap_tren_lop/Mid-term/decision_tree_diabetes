@@ -1,0 +1,13 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="blood_glucose_level <= 210.0\ngini = 0.156\nsamples = 100.0%\nvalue = [0.915, 0.085]\nclass = No Diabetes", fillcolor="#e78d4b"] ;
+1 [label="blood_glucose_level <= 113.0\ngini = 0.103\nsamples = 96.7%\nvalue = [0.946, 0.054]\nclass = No Diabetes", fillcolor="#e68844"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.0\nsamples = 28.1%\nvalue = [1.0, 0.0]\nclass = No Diabetes", fillcolor="#e58139"] ;
+1 -> 2 ;
+3 [label="gini = 0.141\nsamples = 68.7%\nvalue = [0.923, 0.077]\nclass = No Diabetes", fillcolor="#e78b49"] ;
+1 -> 3 ;
+4 [label="gini = 0.0\nsamples = 3.3%\nvalue = [0.0, 1.0]\nclass = Diabetes", fillcolor="#399de5"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
